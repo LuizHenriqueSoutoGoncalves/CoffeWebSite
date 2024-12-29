@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Café Kactus</title>
+</head>
+<body>
+    <div class="box-video">
+        <video src="/ProjetoCafeteria/videos/coffe.mp4" loop muted autoplay ></video>
+    </div>
+    <div class="mask"></div>
+
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="./img/logo.png" alt="logo-cafeteria"> <!--Atualizar para o kactus café-->
+            </a>
+
+            <nav>
+                <a href="#" id="home-link">Home</a>
+                <a href="#" id="about-link">About</a>           
+                <a href="#" onclick="cliqueModal()">Address</a>
+            </nav>
+
+        </section>
+    </header>
+
+        <section id="home-section" class="box-principal">
+            <div>
+                <h3>Onde o aroma do café encontra a beleza das flores</h3>
+                <p>No The Kactos Café, cada xícara é um convite para desacelerar e apreciar a beleza ao seu redor. Entre o aroma do café fresco e o encanto das plantas que decoram nosso espaço, você encontrará mais que um lugar para relaxar: encontrará inspiração.
+                Escolha o seu café favorito e leve um pouco de verde para casa. Aqui, cada detalhe é pensado para transformar sua pausa em um momento especial.</p>
+                <a class="link-order">Peça Já o Seu!</a>
+            </div>
+        </section>
+
+        <section id="about-section" class="box-about">
+                <h2 class="tittle"><span>About</span> Us</h2>
+                <div class="about-container">
+                    <div class="about-img">
+                        <img src="./img/about-img.jpeg">
+                    </div>
+                    <div class="about-text">
+                        <h3>O que faz nosso café especial</h3>
+                        <p>No The Kactos Café, cada xícara é feita com grãos cuidadosamente selecionados e torrados na medida certa para garantir um sabor marcante e único.</p>
+                        <p>Preparamos cada bebida de forma artesanal, com atenção aos detalhes e ao processo que destaca o melhor do café. Além disso, nosso ambiente acolhedor, que une o aroma do café fresco à beleza das plantas, proporciona uma experiência única e inspiradora, tornando cada visita um momento especial de conexão com a natureza e os sentidos.</p>
+                        <a class="link-order" href="#">Saiba Mais</a>
+                    </div>
+    
+                </div>
+        </section>
+
+        <div class="modal">
+            <h3 class="tittle">Nosso <span>Endereço</span></h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.15711302378!2d-46.75371429999999!3d-23.6345438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53775810504d%3A0xea2eccb2350f2181!2sTHE%20KACTOS%20%2F%20THE%20KACTOS%20CAF%C3%89!5e0!3m2!1spt-BR!2sbr!4v1735492290763!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="mask-modal" onclick="hiddenModal()"></div>
+        
+        <div class="extra-space"></div>
+
+        <script src="script.js"></script>
+</body>
+</html>
