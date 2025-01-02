@@ -248,12 +248,6 @@ h2.titulo-port span{
     color: rgb(249, 6, 209);
 }
 
-
-@media screen and (max-width: 1020px)
-    .menu-desktop, .lz-contato{
-        display: none;
-    }
-
 /*Imagens*/
 header .interface .logo a img{
     width: 40%;
